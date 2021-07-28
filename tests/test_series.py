@@ -40,3 +40,11 @@ def test_sum_series_two():
     actual = sum_series(8)
     #assert
     assert expected == actual
+
+def test_sum_series_two():
+    #arrange
+    expected = '14'
+    #assign
+    actual = sum_series(4,4,5)
+    #assert
+    assert expected == actual
